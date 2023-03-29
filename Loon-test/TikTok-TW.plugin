@@ -19,8 +19,8 @@ DOMAIN-KEYWORD,-tiktokcdn-com
 USER-AGENT,tiktok*
 
 [URL Rewrite]
-(?<=_region=)CN(?=&) TW 307
-(?<=&mcc_mnc=)460[0-1][0-9](?=&) 46692 307
+(?<=_region=)SG(?=&) TW 307
+(?<=&mcc_mnc=)525[0-1][0-9](?=&) 46692 307
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$4 302
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
 (?<=&carrier=)[%A-Z0-9]+(?=&) %E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1 307
