@@ -20,6 +20,7 @@ USER-AGENT,tiktok*
 
 [URL Rewrite]
 (?<=_region=)SG(?=&) TW 307
+(?<=account_region=)sg(?=&) tw 307
 (?<=&mcc_mnc=)525[0-1][0-9](?=&) 46692 307
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$4 302
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
@@ -27,4 +28,4 @@ USER-AGENT,tiktok*
 (?<=tz_name=)Asia/Singapore(?=&) Asia/Taipei 307
 
 [MITM]
-hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,*.snssdk.com,*.amemv.com

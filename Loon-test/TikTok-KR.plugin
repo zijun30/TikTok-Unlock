@@ -29,4 +29,4 @@ USER-AGENT,tiktok*
 (?<=timezone=)8(?=&) 9 307
 
 [MITM]
-hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,*.snssdk.com,*.amemv.com
