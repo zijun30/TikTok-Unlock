@@ -27,7 +27,6 @@ USER-AGENT,tiktok*
 (?<=&carrier=)[%A-Z0-9]+(?=&) SKT 307
 (?<=tz_name=)Asia/Singapore(?=&) Asia/Seoul 307
 (?<=timezone=)8(?=&) 9 307
-(?<=account_region=)sg(?=&) kr 307
 
 [MITM]
 hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
