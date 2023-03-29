@@ -5,7 +5,6 @@
 #!homepage=https://github.com/Semporia/TikTok-Unlock
 #!icon= https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
 
-
 [Rule]
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -29,5 +28,5 @@ USER-AGENT,tiktok*
 (?<=tz_name=)Asia/Singapore(?=&) Asia/Seoul 307
 (?<=timezone=)8(?=&) 9 307
 
-[MITM]ss
+[MITM]
 hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
