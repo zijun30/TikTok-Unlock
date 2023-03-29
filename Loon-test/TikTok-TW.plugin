@@ -24,7 +24,7 @@ USER-AGENT,tiktok*
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$4 302
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
 (?<=&carrier=)[%A-Z0-9]+(?=&) %E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1 307
-(?<=tz_name=)Asia/Shanghai(?=&) Asia/Taipei 307
+(?<=tz_name=)Asia/Singapore(?=&) Asia/Taipei 307
 
 [MITM]
 hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
